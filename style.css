@@ -117,3 +117,125 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 1200px) {
+  .quote__content {
+    font-size: 3.5rem;
+  }
+  .quote__content--long {
+    font-size: 2.8rem;
+  }
+  .quote__text i {
+    font-size: 5.5rem;
+  }
+  .quote__author--name {
+    font-size: 2.8rem;
+  }
+  .quote__button {
+    font-size: 1.8rem;
+    padding: 0.8rem 1.2rem;
+  }
+  .quote__button--twitter {
+    font-size: 2rem;
+    padding: 0.7rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .quote__content {
+    font-size: 3rem;
+  }
+  .quote__content--long {
+    font-size: 2.5rem;
+  }
+  .quote__text i {
+    font-size: 5rem;
+  }
+  .quote__author--name {
+    font-size: 2.5rem;
+  }
+  .quote__button {
+    font-size: 1.6rem;
+    padding: 0.7rem 1rem;
+  }
+  .quote__button--twitter {
+    font-size: 1.8rem;
+    padding: 0.6rem 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .quote__content {
+    font-size: 2.5rem;
+  }
+  .quote__content--long {
+    font-size: 2rem;
+  }
+  .quote__text i {
+    font-size: 4rem;
+  }
+  .quote__author--name {
+    font-size: 2rem;
+  }
+  .quote__button {
+    font-size: 1.4rem;
+    padding: 0.6rem 0.9rem;
+  }
+  .quote__button--twitter {
+    font-size: 1.6rem;
+    padding: 0.5rem 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .quote {
+    padding: 1.5rem 2rem;
+  }
+  .quote__content {
+    font-size: 2rem;
+  }
+  .quote__content--long {
+    font-size: 1.8rem;
+  }
+  .quote__text i {
+    font-size: 3.5rem;
+  }
+  .quote__author--name {
+    font-size: 1.8rem;
+  }
+  .quote__button {
+    font-size: 1.2rem;
+    padding: 0.5rem 0.8rem;
+  }
+  .quote__button--twitter {
+    font-size: 1.4rem;
+    padding: 0.4rem 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .quote {
+    padding: 1rem 1.5rem;
+  }
+  .quote__content {
+    font-size: 1.8rem;
+  }
+  .quote__content--long {
+    font-size: 1.6rem;
+  }
+  .quote__text i {
+    font-size: 3rem;
+  }
+  .quote__author--name {
+    font-size: 1.6rem;
+  }
+  .quote__button {
+    font-size: 1rem;
+    padding: 0.4rem 0.7rem;
+  }
+  .quote__button--twitter {
+    font-size: 1.2rem;
+    padding: 0.3rem 1.2rem;
+  }
+}
